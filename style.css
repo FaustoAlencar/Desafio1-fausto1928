@@ -1,0 +1,107 @@
+body{
+    margin: 0;
+    padding: 0;
+    justify-content: space-between;
+}
+.teste {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header{
+    top: 0;
+    height: 40px;
+    background-color: #212121;
+    display: flex;
+    justify-content: space-between;
+}
+
+main{
+    height: 100%;
+    padding: 80px;
+}
+
+footer{
+    display: block;
+    position: absolute;
+    bottom: 0;
+    height: 80px;
+    width: 100%;
+    background-color: #212121;
+}
+
+span{
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+
+}
+.logo{
+    height: 100%;
+    margin-left: 240px;
+    margin-right: 240px;
+}
+
+.nav-bar-container{
+    margin-right: 100px;
+    padding: 2px;
+    display: block;
+    align-content: center;
+    width: 350px;
+    right: 550px;
+}
+
+.nav-bar-content{
+    justify-content: space-around;
+}
+.nav-btn{
+    width: 120px;
+    height: 35px;
+    border-radius: 20px;
+    background-color: #F9A825 ;
+    
+}
+
+a{  
+    font-size: 20;
+    color: white;
+    text-decoration: none;
+    text-align: center;    
+}
+
+.footer-credit{
+    font-size: 22px;
+}
+
+.main-container{
+    height: 400px;
+    width: 850px;
+    border: 1px solid #212121;
+}
+
+.message-container{
+    width: 52%;
+}
+
+.message{
+    font-size: 22px;
+    padding: 15px;
+}
+
+.separator{
+    border: 1px dashed #212121;
+    height: 90%;
+    width: 0.01px;
+}
+.input-container{
+    width: 48%;
+}
+
+input{
+    width: 75%;
+    height: 35px;
+    border: 1px solid #212121;
+    border-radius: 5px;
+    font-size: 16px;
+}
